@@ -1,0 +1,31 @@
+{
+  "name": "vuessr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node src/server.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:server": "cross-env WEBPACK_TARGET=node vue-cli-service build --mode server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vue-server-renderer": "^2.6.11",
+    "vuex": "^3.4.0",
+    "webpack-manifest-plugin": "^5.0.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8"
+  }
+}
