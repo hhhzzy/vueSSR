@@ -30,6 +30,7 @@ router.onReady(() => {
         const matched = router.getMatchedComponents(to)
         // 返回上一个路由的组件
         const prevMatched = router.getMatchedComponents(from)
+        console.log(matched, prevMatched, to, from)
         // 判断路由组件是否复用。不复用，则执行asyncData函数，复用则不执行asyncData函数
         let diffed = false
         const activated = matched.filter((c, i) => {

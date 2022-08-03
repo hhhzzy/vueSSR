@@ -18,7 +18,7 @@ const renderer = createBundleRenderer(serverBundle, {
     clientManifest, // 将客户端的构建结果清单传入
 });
 
-// vue实例
+
 app.use(server.static(path.resolve(process.cwd(), 'dist')));
 
 // 服务端渲染
