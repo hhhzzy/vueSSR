@@ -1,4 +1,4 @@
-# veu2.x + typescript + ssr
+# vue2.x + typescript + ssr
 
 ### Project setup
 ```
